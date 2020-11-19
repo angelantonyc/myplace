@@ -6,9 +6,8 @@
     <title>Contact</title>
 </head>
 <body>
-    <br><br><br><br>Will Catch up later....
     <header>
-        <img src="../images/travel.jpg" alt="myplace">
+        <img src="./images/contact.jpg" alt="contact">
         <br>
         <br>
         <nav>
@@ -23,7 +22,37 @@
     </header>
 
     <main>
-        <!---My place-->
+        <article>
+            <form>
+               <label for="fname">First Name:</label> 
+               <input type="text" name="fname" id="fname">
+               <br> <br>
+               <label for="Sname">Second Name:</label> 
+               <input type="text" name="Sname" id="Sname">
+               <br> <br>
+               <label for="country">Country Name:</label>
+               <select name="country">
+                   <option value="Melbourne">Melbourne</option>
+                   <option value="Kerala">Kerala</option>
+                   <option value="Singapore">Singapore</option>
+               </select> 
+               <br>  <br>
+               <label for="how">How did you hear about me</label>
+               <br> <br>
+               <input type="radio" id ="Website" name="how"> Website
+               <br> 
+               <input type="radio" id ="Facebook" name="how"> Facebook
+               <br>
+               <input type="radio" id ="se" name="how"> Search engine
+               <br>
+               <input type="radio" id ="Friends" name="how" checked> Friends
+               <br>
+               <label for="comment">Comments</label>
+                <textarea id="comment" name="comment" style="height:200px"></textarea>
+               <input type="submit" value="Submit">
+
+            </form>
+        </article>
     </main>
 
 
